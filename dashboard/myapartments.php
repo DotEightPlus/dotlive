@@ -331,8 +331,7 @@ include("include/top.php");
                                                                 NGN <?php echo number_format($row['price']); ?></div>
                                                         </td>
                                                         <td><a href="./rdetails?id=<?php echo $row['apt'] ?>">
-                                                                More
-                                                                Details</td>
+                                                                Verify Apartment</td>
                                                     </tr>
 
                                                 </tbody>

@@ -249,7 +249,7 @@ if (empty($result_set)) {
  {
 $x = $row['msg'];
 $z = str_word_count($x);
-$w = "<a href='./trep?id=".$row['ref']."'>...Read Full Details</a>";
+$w = "<a href='./trep?id=".$row['ref']."'></a>";
   $y = substr_replace($x, $w, $z);
 if (empty($result_set)) {
   echo '';
